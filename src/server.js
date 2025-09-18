@@ -1,6 +1,5 @@
 const express = require("express");
 const apiRoutes = require("./routers");
-const { serverConfig, logger } = require("./config");
 
 const app = express();
 
